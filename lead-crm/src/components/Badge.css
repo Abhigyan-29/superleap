@@ -1,0 +1,41 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.badge-new {
+  background: rgba(0, 255, 255, 0.2);
+  color: #00ffff;
+  box-shadow: inset 0 0 0 1px rgba(0, 255, 255, 0.3);
+}
+
+.badge-contacted {
+  background: rgba(255, 234, 0, 0.2);
+  color: #ffea00;
+  box-shadow: inset 0 0 0 1px rgba(255, 234, 0, 0.3);
+}
+
+.badge-qualified {
+  background: rgba(57, 255, 20, 0.2);
+  color: #39ff14;
+  box-shadow: inset 0 0 0 1px rgba(57, 255, 20, 0.3);
+}
+
+.badge-converted {
+  background: rgba(255, 0, 255, 0.2);
+  color: #ff00ff;
+  box-shadow: inset 0 0 0 1px rgba(255, 0, 255, 0.3);
+}
+
+.badge-lost {
+  background: rgba(255, 0, 60, 0.2);
+  color: #ff003c;
+  box-shadow: inset 0 0 0 1px rgba(255, 0, 60, 0.3);
+}
